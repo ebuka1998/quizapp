@@ -1,0 +1,111 @@
+.questions {
+    background-color: #f8f8f8;
+    border-left: 5px solid #1da1f2;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    padding: 20px 20px;
+
+    .lifeline-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lifeline {
+        position: relative;
+        top: -3px;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        margin-bottom: lg;
+        line-height: 1.5;
+        text-align: center;
+
+    }
+
+    .options-container {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .options {
+        background-color: #1da1f2;
+        border-radius: 30px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        margin: 2rem auto;
+        padding: 0.5rem;
+        transition: 0.3s linear all;
+        width: 90%;
+    }
+
+    .options:hover {
+        background-color: darken(#1da1f2, 10%);
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto 1rem auto;
+    padding: 1.5rem;
+    width: 80%;
+}
+
+.button-container button {
+    border: none;
+    color: #f8f8f8;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
+
+}
+
+.button-container button:first-child {
+    background-color: darken(#1da1f2, 10%);
+    transition: 0.2s linear all
+}
+
+.button-container button:first-child:hover {
+    background-color: darken(#1da1f2, 20%);
+}
+
+.button-container button:nth-child(2) {
+    background-color: darken(#1df24b, 10%);
+    transition: 0.2s linear all
+}
+
+.button-container button:nth-child(2):hover {
+    background-color: darken(#1df24b, 20%);
+}
+
+.button-container button:last-child {
+    background-color: darken(#f21d52, 10%);
+    transition: 0.2s linear all
+}
+
+
+
+.button-container button:last-child:hover {
+    background-color: darken(#f21d52, 20%)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
